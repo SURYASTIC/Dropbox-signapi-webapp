@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#
+# instructions:
+#   install redoc-cli: `npm i -g redoc-cli`
+#   run this script
+#   open http://127.0.0.1:8081
+
+set -e
+
+DIR=$(cd `dirname $0` && pwd)
+ROOT_DIR="${DIR}/.."
+
+redoc-cli serve \
+  "${ROOT_DIR}/openapi.yaml" \
+  --port=8081 \
+  --watch \
+  --options.requiredPropsFirst=1 \
+  --options.pathInMiddlePanel=1
