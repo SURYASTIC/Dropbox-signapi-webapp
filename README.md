@@ -1,4 +1,4 @@
-#The Dropbox-sign API Integration
+## The Dropbox-sign API Integration
 
 Taking digital book experiences to the next level, Open Athenaeum has integrated the Dropbox-sign API. This feature allows users to design a custom eSignature experience, adding a unique touch to their interactions with authors and their books.
 
@@ -6,7 +6,7 @@ Authors can use the Dropbox-sign API to provide personalized eSignatures for the
 
 Readers benefit from the ease and convenience of digitally signing agreements or documents related to book rentals or purchases. The Dropbox-sign API ensures a seamless and secure eSignature process, contributing to a smoother user experience.
 
-#Getting Started with Open Athenaeum
+## Getting Started with Open Athenaeum
 
 To join the digital book revolution on Open Athenaeum, users can follow these simple steps:
 
